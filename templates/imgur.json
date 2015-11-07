@@ -1,0 +1,12 @@
+{
+  "name": "imgur",
+  "strategy": "oauth2",
+  "options": {
+    "authorizationURL": "https://api.imgur.com/oauth2/authorize",
+    "tokenURL": "https://api.imgur.com/oauth2/token",
+    "scope": "read",
+    "scripts": {
+      "fetchUserProfile": "function(accessToken, ctx, cb) { request.get('https://api.imgur.com/3/account/me', { headers: { 'Authorization': 'Bearer ' + accessToken } }, function(e, r, b) { if (e) return cb(e); if (r.statusCode !== 200 ) return cb(new Error('StatusCode: ' + r.statusCode)); var profile = JSON.parse(b).data; profile.user_id = profile.id; cb(null, profile); });}"
+    }
+  }
+}

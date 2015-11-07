@@ -1,0 +1,28 @@
+{
+  "name": "hawkeye-templates",
+  "version": "0.0.1",
+  "description": "Hawkeye Templates is a collection of templates for Auth0 custom OAuth2 connections",
+  "scripts": {
+    "test": "mocha checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcenturion/hawkeye-templates.git"
+  },
+  "keywords": [
+    "auth0",
+    "connections",
+    "templates",
+    "oauth2"
+  ],
+  "author": "centurion.javier@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcenturion/hawkeye-templates/issues"
+  },
+  "homepage": "https://github.com/jcenturion/hawkeye-templates#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}

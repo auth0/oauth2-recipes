@@ -1,0 +1,12 @@
+{
+  "name": "uber",
+  "strategy": "oauth2",
+  "options": {
+    "authorizationURL": "https://login.uber.com/oauth/authorize",
+    "tokenURL": "https://login.uber.com/oauth/token",
+    "scope": "profile",
+    "scripts": {
+      "fetchUserProfile": "function(accessToken, ctx, cb) { request.get('https://api.uber.com/v1/me', { headers: { 'Authorization': 'Bearer ' + accessToken } }, function(e, r, b) { if (e) return cb(e); if (r.statusCode !== 200 ) return cb(new Error('StatusCode: ' + r.statusCode)); var profile = JSON.parse(b); profile.user_id = profile.uuid; cb(null, profile); });}"
+    }
+  }
+}

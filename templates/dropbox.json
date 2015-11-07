@@ -1,0 +1,12 @@
+{
+  "name": "dropbox",
+  "strategy": "oauth2",
+  "options": {
+    "authorizationURL": "https://www.dropbox.com/1/oauth2/authorize",
+    "tokenURL": "https://api.dropbox.com/1/oauth2/token",
+    "scope": "",
+    "scripts": {
+      "fetchUserProfile": "function(accessToken,ctx,cb){request.get('https://api.dropbox.com/1/account/info',{headers:{'Authorization':'Bearer '+accessToken}},function(e,r,b){if(e) return cb(e);if(r.statusCode!==200) return cb(new Error('StatusCode: '+r.statusCode));var profile=JSON.parse(b);cb(null,{user_id:profile.uid,family_name:profile.name_details.surname,given_name:profile.name_details.given_name,email:profile.email,email_verified:profile.email_verified,locale:profile.locale,is_paired:profile.is_paired,country:profile.country,dropbox_team:profile.team,dropbox_referral_link:profile.referral_link});});}"
+    }
+  }
+}
