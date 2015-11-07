@@ -1,4 +1,4 @@
-# Hawkeye-recipes
+# Hawkeye-Recipes
 
 [![Build Status](https://travis-ci.org/jcenturion/hawkeye-recipes.png)](https://travis-ci.org/jcenturion/hawkeye-recipes)
 
