@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "4.0"
+  - "4.1"
 before_script:
   - npm install -g mocha
   - npm update
