@@ -1,15 +1,15 @@
-# Hawkeye-Templates
+# Hawkeye-recipes
 
-[![Build Status](https://travis-ci.org/jcenturion/hawkeye-templates.png)](https://travis-ci.org/jcenturion/hawkeye-templates)
+[![Build Status](https://travis-ci.org/jcenturion/hawkeye-recipes.png)](https://travis-ci.org/jcenturion/hawkeye-recipes)
 
-**Hawkeye Templates** is a collection of templates for [Auth0](https://auth0.com/) custom OAuth2 connections
+**Hawkeye Recipes** is a collection of recipes for [Auth0](https://auth0.com/) custom OAuth2 connections
 
 ## How to contribute
 
 If you want to contribute to this collection, there two ways of doing it:
 
 1. Go to [Custom Connections Dashboard](http://jcenturion.github.io/dashboard), create a connection and share! (It will create a PR agains this repo).
-2. You can create a **PR** adding your template to the folder `templates`. Once you get a green from the build, it will be merged into `master`.
+2. You can create a **PR** adding your recipe to the folder `recipes`. Once you get a green from the build, it will be merged into `master`.
 
 **Note**: The build will check the following schema:
 
