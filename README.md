@@ -1,14 +1,14 @@
-# Hawkeye-Recipes
+# OAuth2 Recipes
 
-[![Build Status](https://travis-ci.org/jcenturion/hawkeye-recipes.png)](https://travis-ci.org/jcenturion/hawkeye-recipes)
+[![Build Status](https://travis-ci.org/auth0/oauth2-recipes.png)](https://travis-ci.org/auth0/oauth2-recipes)
 
-**Hawkeye Recipes** is a collection of recipes for [Auth0](https://auth0.com/) custom OAuth2 connections
+This is a collection of recipes for [Auth0](https://auth0.com/) custom OAuth2 connections
 
 ## How to contribute
 
 If you want to contribute to this collection, there two ways of doing it:
 
-1. Go to [Custom Connections Dashboard](http://jcenturion.github.io/dashboard), create a connection and share! (It will create a PR agains this repo).
+1. Go to [Custom OAuth2 Dashboard](http://auth0.github.io/custom-oauth2-dashboard/), create a connection and share! (It will create a PR agains this repo).
 2. You can create a **PR** adding your recipe to the folder `recipes`. Once you get a green from the build, it will be merged into `master`.
 
 **Note**: The build will check the following schema:
@@ -61,10 +61,25 @@ If you want to contribute to this collection, there two ways of doing it:
   "additionalProperties": false
 }
 ```
+## What is Auth0?
+
+Auth0 helps you to:
+
+* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, amont others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
+* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
+* Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
+* Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
+* Analytics of how, when and where users are logging in.
+* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
+
+## Create a free Auth0 Account
+
+1. Go to [Auth0](https://auth0.com) and click Sign Up.
+2. Use Google, GitHub or Microsoft Account to login.
 
 ## Issue Reporting
 
-If you have found a bug or if you have a feature request, please report them at this repository issues section.
+If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
 ## License
 
