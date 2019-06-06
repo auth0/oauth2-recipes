@@ -1,0 +1,1 @@
+{"name":"login-gov-test","strategy":"oauth2","options":{"authorizationURL":"https://idp.int.identitysandbox.gov/openid_connect/authorize","tokenURL":"https://idp.int.identitysandbox.gov/api/openid_connect/token","scope":"","scripts":{"fetchUserProfile":"function(accessToken, ctx, cb) {\n  // call oauth2 APIwith the accesstoken and create the profile\n  cb(null, profile);\n}"}}}
