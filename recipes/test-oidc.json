@@ -1,0 +1,1 @@
+{"name":"test-oidc","strategy":"oauth2","options":{"authorizationURL":"http://lvh.me:3000/auth","tokenURL":"http://lvh.me:3000/token","scope":"","scripts":{"fetchUserProfile":"function(accessToken, ctx, cb) {\n  // call oauth2 APIwith the accesstoken and create the profile\n  console.log(accessToken, ctx, cb);\n  cb(null, profile);\n}"}}}
