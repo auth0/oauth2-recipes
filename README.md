@@ -6,7 +6,7 @@ This is a collection of recipes for [Auth0](https://auth0.com/) custom OAuth2 co
 
 ## How to contribute
 
-Go to [Custom OAuth2 Dashboard](http://auth0.github.io/custom-oauth2-dashboard/), create a connection and share! (It will create a PR agains this repo).
+Install the [Custom Social Connections Extension](https://auth0.com/docs/extensions/custom-social-extensions), configure your new social connection, save it, and then click Share. That will create a PR agains this repo.
 
 **We are not currently merging new connections to this repo.** You can still share the PR so others could use it as an example of how to configure the connection.
 
