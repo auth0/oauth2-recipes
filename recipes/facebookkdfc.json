@@ -1,0 +1,1 @@
+{"name":"facebookkdfc","strategy":"oauth2","options":{"authorizationURL":"https://www.facebook.com/v3.2/dialog/oauth","tokenURL":"https://www.facebook.com/v3.2/dialog/oauth","scope":"","scripts":{"fetchUserProfile":"function(accessToken, ctx, cb) {\n  var profile = {\n    user_id: \"12\"\n  };\n\n  cb(null, profile);\n}"}}}
