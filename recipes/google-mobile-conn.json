@@ -1,0 +1,1 @@
+{"name":"google-mobile-conn","strategy":"oauth2","options":{"authorizationURL":"https://accounts.google.com/o/oauth2/auth","tokenURL":"https://accounts.google.com/o/oauth2/token","scope":"email profile","scripts":{"fetchUserProfile":"function(accessToken, ctx, cb) {\n  // call oauth2 APIwith the accesstoken and create the profile\n  cb(null, {name:'ismail'});\n}"}}}
