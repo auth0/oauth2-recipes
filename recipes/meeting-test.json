@@ -1,0 +1,1 @@
+{"name":"meeting-test","strategy":"oauth2","options":{"authorizationURL":"","tokenURL":"","scope":"","scripts":{"fetchUserProfile":"function(accessToken, ctx, cb) {\n  // call oauth2 APIwith the accesstoken and create the profile\n  cb(null, profile);\n}"}}}
