@@ -1,0 +1,1 @@
+{"name":"spotify","strategy":"oauth2","options":{"authorizationURL":"https://accounts.spotify.com/authorize","tokenURL":"https://accounts.spotify.com/api/token","scope":"user-read-private user-read-email","scripts":{"fetchUserProfile":""}}}
